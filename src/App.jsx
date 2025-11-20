@@ -7,7 +7,7 @@ function App() {
   return (
     <main>
       <Header />
-      <section>
+      <section className="flex justify-center flex-wrap p-[20px_40px] gap-[20px]">
         {contents.map((el) => (
           <Content key={el.id} content={el} />
         ))}
